@@ -8,13 +8,14 @@ This particulary shows what am I trying to achieve here.
 https://github.com/tiwarirahul/microfrontend-poc/blob/master/Architecture.PNG
 
 To demonstrate the concept, here
-Created a Poc project in which a basic shell applicaiton with Header & navigation option to navigate through the applications.
+Created a angular-cli project in which a basic shell application with Header & navigation option to navigate through the applications.
 
-The applications for which navigation links are provided, has been included as npm packages could be found in libs folder.
-Along with applications, created one common-service lib as well to extend the idea of npm package to basic resuable services.
+The applications for which navigation links are provided, has been included as npm packages could be found in libs folder https://github.com/tiwarirahul/microfrontend-poc/tree/master/Shell/libs.
 
-Here I have created basic logger & alert service and injected within the applications. 
-One thing to notice though provide for common-services will be root module to kept services singelton.
+Along with applications, there is one common-service lib as well just to extend the idea of npm package to resuable services across all the applications including shell.
+
+Here I have basic logger & alert service which are injected into one of the applications. 
+One thing to notice though provider for common-services via shared module has been done through root module to keep services singleton.
 
 
 
