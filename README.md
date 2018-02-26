@@ -23,6 +23,7 @@ One thing to notice though provider for common-services via shared module has be
 
 
 
-Other references on Similar note:
+Other references on Similar note.
+
 https://medium.freecodecamp.org/reusable-web-application-strategies-d51517ea68c8
 https://softwarearchitekt.at/post/2017/12/28/a-software-architect-s-approach-towards-using-angular-and-spas-in-general-for-microservices-aka-microfrontends.aspx
